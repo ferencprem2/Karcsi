@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(6, 5, 32);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-bottom: 200px solid green;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    position: absolute;
+}
+.christmasTreeholder{
+position: relative;
+width: 300px;
+height: 500px;
+border: 1px solid black;
+background-image: url(snow.gif);
+margin: auto;
+}
+
+#top{
+    top: 70px;
+    left: 100px;
+    border-bottom: 100px solid green;
+border-right: 50px solid transparent;
+border-left: 50px solid transparent;
+
+}
+    #mid{
+        left: 50px;
+        top: 100px;
+        border-bottom: 200px solid green;
+        
+    }
+
+    #bot{
+        left: 25px;
+        top: 170px;   
+        border-bottom: 250px solid green;
+        border-right: 125px solid transparent;
+        border-left: 125px solid transparent;
+    }
+
+    #log{
+position: absolute;
+  width: 30px;
+height: 70px;
+background-color: rgb(66, 56, 41);
+left: 135px;
+top: 420px;
+}
+
+.decoration{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#first{
+    left: 85px;
+    top: 330px;
+}
+#second{
+    left: 115px;
+    top: 140px;
+
+}
+#third{
+    left: 146px;
+    top: 240px;
+
+}
+#fourth{
+    left: 176px;
+    top: 350px;
+}
+    .star{
+        position: absolute;
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid gold;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    }
+
+    #s1{
+        left: 140px;
+        top: 38px;
+    }
+    #s2{
+        transform: rotate(60deg);
+        left: 150px;
+        top: 45px;
+    }
+    #s3{
+        transform: rotate(-60deg);
+    left: 130px;
+    top: 45px;
+    
+    }
+    #s4{
+        transform: rotate(-140deg);
+    left: 130px;
+    top: 60px;
+    }
+    
+    #s5{
+        transform: rotate(140deg);
+    left: 150px;
+    top: 60px;
+    }
